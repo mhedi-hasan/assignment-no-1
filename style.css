@@ -1,10 +1,42 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
     /* banner-section-start  */
     .banner-section {
-        /* background-image: url(''); */
+        border: none;
+        display: flex;
+        background-image: url('resources/Banner-Image.png');
+        background-size: cover;
+        height: 506px;
+        background-repeat: no-repeat;
+        background-size: contain;
+        /* background-repeat: no-repeat; */
+        margin: 40px 90px 0px 90px;
     }
-
+    .title {
+        background: linear-gradient(180deg, #070211ff 0%, rgba(7, 2, 17, 0.00) 100%);
+        text-align: center;
+        padding: 80px 200px;
+        /* padding-bottom: 420px; */
+        color: #fff;
+    }
+    .banner-title1 {
+        text-align: center;
+        font-weight: 400;
+        font-size: 28px;
+        padding-top: 55px;
+        /* padding: 177px 551px 383px 550px ; */
+        font-family: 'Merriweather', serif;
+    }
+    .banner-title2 {
+        text-align: center;
+        font-family: Merriweather;
+        font-size: 65px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 90px;
+        padding-top: 10px;
+    }
     /* banner-section-end  */
