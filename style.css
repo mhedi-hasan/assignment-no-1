@@ -18,6 +18,7 @@
     .title {
         background: linear-gradient(180deg, #070211ff 0%, rgba(7, 2, 17, 0.00) 100%);
         text-align: center;
+        height: 500px;
         /* padding: 0px 150px; */
         padding-left: 180px;
         padding-right: 150px;
@@ -78,6 +79,105 @@
     }
     /* middle-section-end */
     /* second-section-start */
-    
-
+    .second-section {
+        background-image: url('resources/Vectorrr.png');
+        height: 600px;
+        width: 1320px;
+        width: auto;
+        display: flex;
+        /* padding: 80px 8%; */
+        margin: 50px 5%;
+        background-size: 1150px;
+        background-repeat: no-repeat;
+        
+    }
+    .second-message{
+        padding-left: 50px;
+        padding-top: 88px;
+        padding-bottom: 78px;
+        background: linear-gradient(180deg, #070211ff 0%, rgba(7, 2, 17, 0.067) 100%);
+        height: 500px;
+    }
+    .second-image {
+        /* padding-right: 50px;
+        background-size: 500px;
+        height: 300px;
+        padding: 5% 1px; */
+        display: flex;
+        width: 319.83px;
+        height: 464.662px;
+        padding: 100px 100px 67px 0px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;    
+        background: linear-gradient(180deg, #070211ff 0%, rgba(7, 2, 17, 0.00) 100%);    
+    }
+    .second-message button{
+        color: #FFF;        
+        text-align: center;
+        font-family: 'Inter';
+        font-size: 20px;
+        font-weight: 700;
+        text-transform: uppercase;
+        background: none;
+        border: none;
+        padding-top: 20px;
+        padding-left: 30px;
+    }
+    .second-message h1 {
+        color: #FFF;        
+        font-family: Merriweather;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: 88px; /* 137.5% */
+        letter-spacing: 7.04px;
+        /* padding-left: 50px; */
+    }
+    .second-message p{
+        color: rgba(255, 255, 255, 0.80);
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; 
+        padding: 15px 0px;
+    }
     /* second-section-end */
+    /* time-section-start */
+    .time-section {
+        background-color: rgba(255, 0, 0, 0.10);
+        color: #070211;
+        font-family: 'Inter';
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 56px;
+        text-transform: capitalize;
+        text-align: center;
+        padding: 80px 0px;
+    }
+    .time-section :hover{
+        color: rgba(254, 27, 27, 0.92);
+    }
+    .time-section button{
+        border-radius: 8px;
+        background: #F00;
+        color: #FFFFFF;
+        padding: 16px 32px;
+        margin-top: 20px;
+        border: none;
+    }
+    .time-button:hover{
+        background-color: rgb(180, 133, 133);
+        color: rgb(239, 0, 0);
+    }
+    .time-section span {
+        color: #F00;
+    }
+    .time-section span:hover {
+        color: rgba(26, 19, 19, 0.871);
+    }
+
+    /* time-section-end */
