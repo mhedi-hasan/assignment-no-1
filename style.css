@@ -293,7 +293,44 @@
         margin: 0px 6%;
     }
     /* image-section-start */
-    
-    /* image-section-end */
 
+    /* image-section-end */
+    .image-section {
+        margin-top: 130px;
+        margin: 130px 6.5% 0;
+    }
+    .images {
+        margin-top: 50px;
+        /* display: inline; */
+    }
+    .image-title h3 {
+        color: #F00;
+        font-family: Inter;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;        
+    }
+    .image-title h1 {
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;        
+    }
+    .image-title p{
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 32px; 
+    }
+    .images-1,.images-2 {
+        display: flex;
+        gap: 18px;
+        
+        height: 400px;
+        padding-bottom: 20px;
+    }
     /* holyday-section-end */
