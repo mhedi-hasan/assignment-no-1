@@ -9,24 +9,27 @@
         display: flex;
         background-image: url('resources/Banner-Image.png');
         background-size: cover;
-        height: 506px;
+        height: 550px;
         background-repeat: no-repeat;
         background-size: contain;
         /* background-repeat: no-repeat; */
-        margin: 40px 90px 0px 90px;
+        margin: 40px 91px 0px 91px;
     }
     .title {
         background: linear-gradient(180deg, #070211ff 0%, rgba(7, 2, 17, 0.00) 100%);
         text-align: center;
-        padding: 80px 200px;
+        /* padding: 0px 150px; */
+        padding-left: 180px;
+        padding-right: 150px;
         /* padding-bottom: 420px; */
         color: #fff;
+        align-items: center;
     }
     .banner-title1 {
         text-align: center;
         font-weight: 400;
         font-size: 28px;
-        padding-top: 55px;
+        padding-top: 132px;
         /* padding: 177px 551px 383px 550px ; */
         font-family: 'Merriweather', serif;
     }
@@ -40,3 +43,41 @@
         padding-top: 10px;
     }
     /* banner-section-end  */
+    /* middle-section-start  */
+    .middle-section {
+        display: block;
+        margin: 1px auto;
+        text-align: center;
+    }
+    .discount-offer h1{
+    color: #F00;
+    text-align: center;
+    font-family: 'Inter';
+    font-size: 87px;
+    font-style: normal;
+    font-weight: 700;
+    }
+    .discount-offer p{
+        font-size: 22px;
+        font-weight: 400;
+        color: #f00;
+        font-family: 'Inter';
+        padding-top: 36px;
+    }
+    .discount-offer h2 {
+        font-size: 45px;
+        font-family: 'Inter';
+        font-weight: 700;
+        color: #070211;
+        padding-top: 16px;
+        /* padding-bottom: 25px; */
+    }
+    .new-year-img {
+        padding-top: 47px;
+        padding-bottom: 20px;
+    }
+    /* middle-section-end */
+    /* second-section-start */
+    
+
+    /* second-section-end */
