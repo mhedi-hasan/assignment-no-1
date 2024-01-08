@@ -194,11 +194,12 @@
         /* padding-left: 100px; */
     }
     .best-offer-2 {
-        padding: 17px 17px;
-        border-radius: 463px;
-        border: 15px solid #F00;
-        margin-right: 15px;
-        margin-left: 20px;
+        padding: 15px 15px;
+        padding-bottom: 8px;
+        border-radius: 1000px;
+        border: 14px solid #F00;
+        /* margin-right: 15px; */
+        /* margin-left: 20px; */
     }
     .best-offer-1 h1 {
         color: #070211;
@@ -235,7 +236,8 @@
         font-size: 20px;
         font-style: normal;
         font-weight: 400;
-        line-height: 32px;         
+        line-height: 32px; 
+        padding-left: 20PX;       
     }
     .new-image {
         padding-top: 30px;
@@ -246,7 +248,19 @@
         display: block;
         text-align: center;
         margin-top: 74px;
-        padding: 10px 24%;
+        padding: 5px 20%;
+    } .holyday-title h3,p {
+        font-family: 'inter';
+    }
+    .holyday-title p {
+        padding-top: 15px;
+        /* padding-bottom: 90px; */
+    }
+    .holyday,.holyday-1,.holyday-2 {
+        margin-top: 50px;
+    }
+    .holyday-title span{
+        color: #F00;
     }
     .holyday-title h1 {
         color: #070211;
@@ -255,17 +269,31 @@
         font-style: normal;
         font-weight: 900;
         line-height: normal;
+        
     }
     .holyday-1 {
         background-image: url('resources/Rectangle\ 1.png');
         background-repeat: no-repeat;
         background-size: contain;
+        display: block;
+        text-align: center;
+        background-position: right;
+        padding-left: 410px;
+        padding-top: 10px;
+        
     }
     .holyday-2 {
         background-image: url('resources/Rectangle\ 2.png');
         background-repeat: no-repeat;
         background-size: contain;
-        position: bottom;
+        background-position: bottom;
+        
     }
+    .holyday-1,.holyday-2 {
+        margin: 0px 6%;
+    }
+    /* image-section-start */
+    
+    /* image-section-end */
 
     /* holyday-section-end */
