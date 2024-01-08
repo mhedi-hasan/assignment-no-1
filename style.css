@@ -420,4 +420,34 @@
     }
     /* Subscribe-section-end */
     /* footer-section-start */
+    .footers{
+        background-color: #070211;
+        color: white;
+        padding: 0px 90px;
+        font-family: Inter;
+    }
+    .foot-message {
+        display: flex;
+        padding: 30px 0px;
+        line-height: 26px;
+        padding-top: 50px;
+        margin-top: 20px;
+        justify-content: space-between;
+        font-size: 1.1rem;
+    }
+    .foot-icon {
+        align-items: center;
+        text-align: center;
+        padding: 37px 0;
+        letter-spacing: 18px;
+    }
+    .foot-last {
+        display: flex;
+        padding: 30px 0px;
+        line-height: 26px;
+        /* padding-top: 50px; */
+        /* margin-top: 20px; */
+        justify-content: space-between;
+        font-size: 1.1rem;
+    }
     /* footer-section-end */
