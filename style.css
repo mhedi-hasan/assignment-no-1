@@ -14,6 +14,7 @@
         background-size: contain;
         /* background-repeat: no-repeat; */
         margin: 40px 91px 0px 91px;
+        /* border-top-right-radius: 16px; */
     }
     .title {
         background: linear-gradient(180deg, #070211ff 0%, rgba(7, 2, 17, 0.00) 100%);
@@ -241,6 +242,30 @@
     }
     /* best-offer-end */
     /* holyday-section-start */
-    
+    .holyday-title{
+        display: block;
+        text-align: center;
+        margin-top: 74px;
+        padding: 10px 24%;
+    }
+    .holyday-title h1 {
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+    }
+    .holyday-1 {
+        background-image: url('resources/Rectangle\ 1.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+    .holyday-2 {
+        background-image: url('resources/Rectangle\ 2.png');
+        background-repeat: no-repeat;
+        background-size: contain;
+        position: bottom;
+    }
 
     /* holyday-section-end */
