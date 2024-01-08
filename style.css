@@ -334,3 +334,14 @@
         padding-bottom: 20px;
     }
     /* holyday-section-end */
+    /* Subscribe-section-start */
+    .subscribe {
+        margin: 40px 6.5%;
+        background-color: pink;
+        align-items: center;
+        text-align: center;
+        padding: 25px 190px;
+        border-radius: 16px;
+    }
+
+    /* Subscribe-section-end */
