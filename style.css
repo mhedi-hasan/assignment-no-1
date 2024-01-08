@@ -131,13 +131,13 @@
         font-size: 64px;
         font-style: normal;
         font-weight: 900;
-        line-height: 88px; /* 137.5% */
+        line-height: 88px; 
         letter-spacing: 7.04px;
         /* padding-left: 50px; */
     }
     .second-message p{
         color: rgba(255, 255, 255, 0.80);
-        font-family: Inter;
+        font-family: 'Inter';
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
@@ -157,9 +157,8 @@
         text-transform: capitalize;
         text-align: center;
         padding: 80px 0px;
-    }
-    .time-section :hover{
-        color: rgba(254, 27, 27, 0.92);
+        margin: 0px 5%;
+        border-radius: 10px;
     }
     .time-section button{
         border-radius: 8px;
@@ -169,15 +168,79 @@
         margin-top: 20px;
         border: none;
     }
-    .time-button:hover{
-        background-color: rgb(180, 133, 133);
-        color: rgb(239, 0, 0);
-    }
     .time-section span {
         color: #F00;
     }
-    .time-section span:hover {
-        color: rgba(26, 19, 19, 0.871);
-    }
-
     /* time-section-end */
+    /* best-offer-start */
+    .best-offer{
+        background-color: rgb(250, 253, 255);
+        display: flex;
+        justify-content: space-around;
+        margin: 10px 6.5%;
+        border-radius: 10px;
+        margin-top: 120px;
+    }
+    .best-offer-1 h2 {
+        color: #F00;
+        font-family: Inter;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    .best-offer-1 {
+        padding-top: 60px;
+        /* padding-right: 70px; */
+        /* padding-left: 100px; */
+    }
+    .best-offer-2 {
+        padding: 17px 17px;
+        border-radius: 463px;
+        border: 15px solid #F00;
+        margin-right: 15px;
+        margin-left: 20px;
+    }
+    .best-offer-1 h1 {
+        color: #070211;
+        font-family: Merriweather;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 900;
+        line-height: normal;
+        text-transform: capitalize;
+        padding-top: 9px;
+        padding-bottom: 19px;
+    }.best-offer-1 p {
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;
+        /* padding-top: 20px; */
+    }
+    .best-offer-3 h1 {
+        color: #F00;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;  
+        padding-bottom: 12px;   
+        padding-top: 35px;   
+    }
+    .best-offer-3 p {
+        color: rgba(7, 2, 17, 0.60);
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 32px;         
+    }
+    .new-image {
+        padding-top: 30px;
+    }
+    /* best-offer-end */
+    /* holyday-section-start */
+    
+
+    /* holyday-section-end */
